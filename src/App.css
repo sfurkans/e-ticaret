@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(images/arka-plan4.jpg) no-repeat center center/cover;
+  background-attachment: fixed; /* Arka planın sabit olmasını sağlar */
+  font-family: 'Arial', 'Helvetica', 'sans-serif'; /* Alternatif fontlar ekleyerek daha geniş bir yelpaze sundum */
+  height: 100%;
+  box-sizing: border-box; /* Box modelinin düzgün çalışmasını sağlar */
+}
+
+
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+.flex-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+#root {
+  height: 100vh;
+}
+
+/* Karanlık Tema */
+.dark-theme {
+  background-color: black;
+  color: #fff;
+}
+
+/* Açık Tema */
+.light-theme {
+  background-color: #fff;
+  color: black;
+}
+
+/* Diğer stiller için CSS eklemeyi unutmayın */

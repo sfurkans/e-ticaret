@@ -1,0 +1,87 @@
+/* Ana Div */
+.ana-div {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px; /* Görseller ve metin arasındaki boşluğu yönetmek için gap kullanabiliriz */
+    align-items: center; /* Yüksekliği hizalamak için */
+}
+
+/* Resim Divi */
+.resim-div {
+    margin-right: 40px;
+}
+
+/* Başlık */
+.title-div {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 32px; /* Başlık boyutunu büyütüp, okunabilirliği artırdım */
+    font-weight: bold;
+    color: #333; /* Başlık için daha koyu bir renk */
+}
+
+/* Açıklama */
+.description-div {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 18px; /* Biraz daha küçük bir yazı tipi */
+    color: #555; /* Açıklama için daha açık bir gri ton */
+    line-height: 1.6; /* Satır aralığını arttırarak okuma deneyimini iyileştirebilirsiniz */
+    margin-bottom: 20px; /* Başlık ve fiyat arasına boşluk ekledim */
+}
+
+/* Fiyat */
+.price-div {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: #e74c3c; /* Kırmızı yerine daha soft ve modern bir kırmızı */
+    margin-top: 60px;
+}
+
+/* Sayacın Divi */
+.sayac-div {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Sayacın üstünde biraz boşluk */
+}
+
+/* Artı ve Eksi Butonları */
+.arti-eksi {
+    font-size: 40px;
+    margin-right: 15px;
+    cursor: pointer; /* Butonlara tıklanabilirlik özelliği ekledim */
+    transition: transform 0.2s ease; /* Hover efekti */
+}
+
+/* Artı ve Eksi Butonları Hover */
+.arti-eksi:hover {
+    transform: scale(1.1); /* Hover'da biraz büyür */
+}
+
+/* Sayacın Sayısı */
+.span-div {
+    font-size: 35px;
+    margin-right: 15px;
+    color: #333; /* Sayı için koyu renk */
+}
+
+/* Sepete Ekle Butonu */
+.sepeteekle {
+    margin-top: 50px;
+    border: none;
+    padding: 15px 20px;
+    background-color: #2ecc71; /* Yeşil yerine modern bir yeşil ton */
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px; /* Font büyüklüğünü arttırarak okunabilirliği artırdım */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Sepete Ekle Butonu Hover */
+.sepeteekle:hover {
+    background-color: #27ae60; /* Hoverda daha koyu bir yeşil */
+    transform: scale(1.05); /* Hover'da buton biraz büyür */
+}

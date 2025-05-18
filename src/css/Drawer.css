@@ -1,0 +1,75 @@
+
+/* Çekmecenin arka planını şeffaf ve yumuşak yap */
+.MuiDrawer-root {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* Ürün resimleri */
+.drawer-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Ürün başlık */
+.drawer-p1 {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ddd;
+    margin-right: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Ürün fiyatı */
+.drawer-p2 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 15px;
+    color: #f1c40f;
+}
+
+/* Silme butonu */
+.drawer-buton {
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #e74c3c;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Silme butonunun hover efekti */
+.drawer-buton:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px); /* Hover efektinin yükselmesi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Toplam tutar kısmı */
+.total-amount {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Genel düzen */
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
