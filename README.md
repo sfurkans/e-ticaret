@@ -1,12 +1,30 @@
-# React + Vite
+# 🛍️ React E-Ticaret Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, modern bir e-ticaret arayüzü oluşturmak için React kullanılarak geliştirilmiştir. Kullanıcılar ürünleri görüntüleyebilir, sepete ekleyebilir ve ödeme adımlarına geçebilir.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ürün listeleme
+- Ürün detay sayfası
+- Sepet yönetimi
+- Kategorilere göre filtreleme
+- Responsive tasarım
+- Modern React (Hooks + Functional Components)
 
-## Expanding the ESLint configuration
+## 🛠️ Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router DOM
+- Axios
+- Bootstrap / Tailwind / CSS Modules (hangisini kullandıysan)
+- [Opsiyonel] Firebase / JSON Server / API
+
+## 🔧 Kurulum
+
+Projeyi yerel ortamda çalıştırmak için:
+
+```bash
+git clone https://github.com/kullaniciAdi/e-ticaret.git
+cd e-ticaret
+npm install
+npm start
